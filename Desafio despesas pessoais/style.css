@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: silver;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 700px;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+}
+section{
+    height: auto;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+}
+
+div{
+    height: auto;
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    font-size: 16px;
+}
+#despesas{
+    background-color: rgba(255, 0, 0, 0.596);
+    color: snow;
+}
+#receitas{
+    background-color: rgba(65, 105, 225, 0.719);
+    color: snow;
+}
+#total{
+    background-color: slategray;
+    width: 624px;
+    color: snow;
+}
+pre{
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    text-align: center;
+}
+input:hover{
+    box-shadow: 1px 1px black;
+}

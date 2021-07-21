@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../Desafio notas abc/icon.png" type="image/x-icon">
+    <script src="script.js"></script>
+    <title>Despesas pessoais</title>
+</head>
+<body>
+    <header><h1>Programa de despesas pessoais</h1></header>
+    <section>
+        <div id='despesas'>
+            <p>Despesas <input type="button" value="Incluir" onclick="incluirDespesa()"></p>
+            <p>Referência: <input type="text" id='inDespesa'></p>
+            <p>Valor: <input type="number" id='inValDespesa'></p>
+            <pre id="saidaDesp"></pre>
+            <pre id='somaDesp'></pre>
+        </div>
+        <div id='receitas'>
+            <p>Receitas <input type="button" value="Incluir" onclick="incluirReceita()"></p>
+            <p>Referência: <input type="text" id='inReceita'></p>
+            <p>Valor: <input type="number" id='inValReceita'></p>
+            <pre id="saidaRec"></pre>
+            <pre id='somaRec'></pre>
+        </div>
+        <div id="total">
+            <p>Calcular Total: <input type="button" value="Calcular" onclick="calcular()"></p>
+            <p>Total calculado: </p>
+            <pre id='saidaTotal'></pre>
+        </div>
+    </section>
+    <footer>
+        <p>&reg; DESAR Produções</p>
+    </footer>
+</body>
+</html>
